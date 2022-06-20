@@ -77,6 +77,12 @@ img {
   background: var(--greyColor);
 }
 
+.btn-white {
+  border: 2px solid #ccc;
+  color: #ccc;
+  font-size: 18px;
+}
+
 /*==========================================================================
                         DASHBOARD STYLES
 ========================================================================*/
@@ -406,4 +412,234 @@ img {
 .dashboard-project-summary .project-summary-content .projects-grid .project p {
   font-size: 12px;
   margin-bottom: 5px;
+}
+
+/*==================================================
+            RIGHT SIDEBAR SECTION
+==================================================*/
+.right-sidebar {
+  padding: 60px 20px;
+}
+
+.right-sidebar .right-sidebar-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.right-sidebar .right-sidebar-heading img {
+  width: 30px;
+  height: 30px;
+}
+
+.right-sidebar .right-sidebar-heading h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.right-sidebar .right-sidebar-heading p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.right-sidebar .right-sidebar-heading .heading-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-sidebar .right-sidebar-heading .heading-left img:first-child {
+  margin-right: 30px;
+}
+
+.right-sidebar .right-sidebar-heading .heading-right {
+  display: flex;
+  align-items: center;
+}
+
+.right-sidebar .right-sidebar-heading .heading-right img {
+  margin-right: 10px;
+}
+
+/*==================================================
+                TASK SECTION
+==================================================*/
+.task-section {
+  padding: 20px;
+  background: #fff;
+}
+
+.task-section .create-task-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-section .create-task-heading h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.task-section .create-task-heading img {
+  width: 30px;
+  height: 30px;
+}
+
+.task-section .create-task-input {
+  margin: 20px 0 50px;
+}
+
+.task-section .create-task-input img {
+  width: 25px;
+  height: 25px;
+}
+
+.task-section .create-task-input label {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.task-section .create-task-input .task-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid #ccc;
+}
+
+.task-section .create-task-input .task-input input {
+  flex-basis: 90%;
+  border: none;
+  outline: none;
+  height: 100%;
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.task-section .create-task-input .task-input img {
+  flex-basis: 10%;
+}
+
+.task-section .task-options {
+  margin-bottom: 50px;
+}
+
+.task-section .task-options ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task-section .task-options ul li {
+  margin: 3px;
+}
+
+.task-section .task-details .others {
+  width: 30px;
+  height: 30px;
+}
+
+.task-section .task-details .friends {
+  max-width: 150px;
+  margin: 0 10px;
+}
+
+.task-section .task-details h3 {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.task-section .task-details p {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.task-section .task-details .task-detail .btn {
+  padding: 5px 15px;
+  width: inherit;
+  align-self: center;
+}
+
+.task-section .task-details .task-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-section .task-details .btn-big {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*==================================================
+                SCHEDULE SECTION
+==================================================*/
+.schedule {
+  margin-top: 50px;
+}
+
+.schedule .others {
+  width: 30px;
+  height: 30px;
+}
+
+.schedule .friends {
+  max-width: 150px;
+}
+
+.schedule h3 {
+  font-size: 2rem;
+}
+
+.schedule h4 {
+  font-size: 1.5rem;
+  margin: 20px 0 15px;
+}
+
+.schedule p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #555;
+  margin-left: 10px;
+}
+
+.schedule small {
+  font-size: 12px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.schedule .schedule-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.schedule .schedule-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.schedule .schedule-content {
+  background: var(--primaryColor);
+  padding-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px 0 rgba(121, 121, 121, 0.016);
+}
+
+.schedule .schedule-content .schedule-content-inner {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px 10px;
+  width: 100%;
 }
